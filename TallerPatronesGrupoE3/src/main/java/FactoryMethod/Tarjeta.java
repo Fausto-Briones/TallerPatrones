@@ -10,7 +10,7 @@ package FactoryMethod;
  */
 public abstract class Tarjeta {
     protected double costoAnual;
-    protected double limiteCredito;
+    public double limiteCredito;
     
     public abstract void setCostoAnual();
     public abstract void setLimiteCredito();

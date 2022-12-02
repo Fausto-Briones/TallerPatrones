@@ -24,5 +24,10 @@ public class Cliente {
     public double getSalario(){
     return this.salario;
     }
-    
+    public void setTarjeta(Tarjeta tarjeta){
+    this.tarjeta=tarjeta;
+    }
+    public Tarjeta getTarjeta(){
+    return tarjeta;
+    }
 }
